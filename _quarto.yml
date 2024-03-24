@@ -1,0 +1,19 @@
+project: 
+  type: manuscript
+
+manuscript: 
+  article: index.qmd   # default paper name
+  notebooks:
+    - notebook: notebooks/data-prep.qmd
+      title: Data Preparation
+      
+  meca-bundle: "wx-impact-bundle.zip"
+  
+format:
+  html: 
+    comments:
+      hypothesis: true
+  pdf: default
+  docx: default
+  
+freeze: auto

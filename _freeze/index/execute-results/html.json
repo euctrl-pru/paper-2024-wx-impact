@@ -1,0 +1,15 @@
+{
+  "hash": "284e0129be24db84bebe1e0a435c70a6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"paper\"\nauthor: \n  - name: PRU\n    orcid: tbd\n    corresponding: true\n    affiliation: AIU/OPS\n    email: pru-support@eurocontrol.int\n    roles:\n        - Investigation\n        - Project administration\n        - software\n        - visualisations\n  - name: DECEA        \nkeywords:\n  - air navigation\n  - arrival management\n  - weather impact\nabstract: |\n  TEASER With air transportation recovering around the globe, the policy focus shifts back to environmental protection and the climate change impact of air transportation. Arrival operations at airports form part of a substantial benefit pool.\n  WHY IMPORTANT Little attention is currently given to the underlying mechanism of changing weather phenomena on arriving air traffic.\n  APPROACH This paper presents the conceptual approach to describe arrival management sequencing as a spatio-temporal problem within 200NM around an airport. The success of the trajectory-based operations will be analysed in light of significant weather disruptions at the arrival airports and within the studied arrival horizon.\n  EXPERIMENT\n  MAJOR RESULT/TAKE AWAY\n---\n\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## Running Code\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nYou can add options to executable code like this \n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n2 * 2\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
