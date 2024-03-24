@@ -1,0 +1,46 @@
+---
+title: "paper"
+author: 
+  - name: PRU
+    orcid: tbd
+    corresponding: true
+    affiliation: AIU/OPS
+    email: pru-support@eurocontrol.int
+    roles:
+        - Investigation
+        - Project administration
+        - software
+        - visualisations
+  - name: DECEA        
+keywords:
+  - air navigation
+  - arrival management
+  - weather impact
+abstract: |
+  TEASER With air transportation recovering around the globe, the policy focus shifts back to environmental protection and the climate change impact of air transportation. Arrival operations at airports form part of a substantial benefit pool.
+  WHY IMPORTANT Little attention is currently given to the underlying mechanism of changing weather phenomena on arriving air traffic.
+  APPROACH This paper presents the conceptual approach to describe arrival management sequencing as a spatio-temporal problem within 200NM around an airport. The success of the trajectory-based operations will be analysed in light of significant weather disruptions at the arrival airports and within the studied arrival horizon.
+  EXPERIMENT
+  MAJOR RESULT/TAKE AWAY
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
