@@ -43,7 +43,8 @@ thr_values <- tibble::tribble(
 thr_values
 ```
 
-Values from [@taszarek2020]
+Values from [@taszarek2020].
+Add some more text. Where is the article gone?
 
 ## Background
 
