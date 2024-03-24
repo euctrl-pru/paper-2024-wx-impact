@@ -16,5 +16,7 @@ format:
       hypothesis: true
   pdf: default
   docx: default
-  
+
+bibliography: [references.bib]
+
 freeze: auto

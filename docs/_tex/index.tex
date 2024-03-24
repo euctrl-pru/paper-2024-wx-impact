@@ -80,6 +80,22 @@
 
 \KOMAoption{captions}{tableheading}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -145,51 +161,39 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-TEASER With air transportation recovering around the globe, the policy
-focus shifts back to environmental protection and the climate change
-impact of air transportation. Arrival operations at airports form part
-of a substantial benefit pool. WHY IMPORTANT Little attention is
-currently given to the underlying mechanism of changing weather
-phenomena on arriving air traffic. APPROACH This paper presents the
-conceptual approach to describe arrival management sequencing as a
-spatio-temporal problem within 200NM around an airport. The success of
-the trajectory-based operations will be analysed in light of significant
-weather disruptions at the arrival airports and within the studied
-arrival horizon. EXPERIMENT MAJOR RESULT/TAKE AWAY
+\textbf{TEASER} With air transportation recovering around the globe, the
+policy focus shifts back to environmental protection and the climate
+change impact of air transportation. Arrival operations at airports form
+part of a substantial benefit pool. \textbf{WHY IMPORTANT} Little
+attention is currently given to the underlying mechanism of changing
+weather phenomena on arriving air traffic. \textbf{APPROACH} This paper
+presents the conceptual approach to describe arrival management
+sequencing as a spatio-temporal problem within 200NM around an airport.
+The success of the trajectory-based operations will be analysed in light
+of significant weather disruptions at the arrival airports and within
+the studied arrival horizon. \textbf{EXPERIMENT} \textbf{MAJOR
+RESULT/TAKE AWAY}
 \end{abstract}
 
-\subsection{Quarto}\label{quarto}
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, toprule=.15mm, arc=.35mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, opacityback=0, bottomtitle=1mm, coltitle=black, left=2mm, colframe=quarto-callout-note-color-frame, colback=white, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, rightrule=.15mm]
 
-Quarto enables you to weave together content and executable code into a
-finished document. To learn more about Quarto see
-\url{https://quarto.org}.
+This article is work in progress. We also use the Quarto manuscript
+project type to explore the new features. Please consult these pages
+regularly to follow any updates.
 
-\subsection{Running Code}\label{running-code}
+\end{tcolorbox}
 
-When you click the \textbf{Render} button a document will be generated
-that includes both content and the output of embedded code. You can
-embed code like this:
+\subsection{Introduction}\label{introduction}
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
+\subsection{Background}\label{background}
 
-\textsubscript{Source:
-\href{https://euctrl-pru.github.io/paper-2024-wx-impact/index.qmd.html}{Article
-Notebook}}
+\subsection{Concept, Methods, and Data}\label{concept-methods-and-data}
 
-You can add options to executable code like this
+\subsection{Results and Discussion}\label{results-and-discussion}
 
-\begin{verbatim}
-[1] 4
-\end{verbatim}
+\subsection{Conclusion}\label{conclusion}
 
-\textsubscript{Source:
-\href{https://euctrl-pru.github.io/paper-2024-wx-impact/index.qmd.html}{Article
-Notebook}}
-
-The \texttt{echo:\ false} option disables the printing of code (only
-output is displayed).
+\subsection{References}\label{references}
 
 
 
