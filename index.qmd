@@ -1,0 +1,57 @@
+---
+title: "Towards Measuring the Impact of Weather Phenomena on Arrival Management"
+author: 
+  - name: PRU
+    orcid: tbd
+    corresponding: true
+    affiliation: AIU/OPS
+    email: pru-support@eurocontrol.int
+    roles:
+        - Investigation
+        - Project administration
+        - software
+        - visualisations
+  - name: DECEA        
+keywords:
+  - air navigation
+  - arrival management
+  - weather impact
+abstract: |
+  **TEASER** With air transportation recovering around the globe, the policy focus shifts back to environmental protection and the climate change impact of air transportation. Arrival operations at airports form part of a substantial benefit pool.
+  **WHY IMPORTANT** Little attention is currently given to the underlying mechanism of changing weather phenomena on arriving air traffic.
+  **APPROACH** This paper presents the conceptual approach to describe arrival management sequencing as a spatio-temporal problem within 200NM around an airport. The success of the trajectory-based operations will be analysed in light of significant weather disruptions at the arrival airports and within the studied arrival horizon.
+  **EXPERIMENT**
+  **MAJOR RESULT/TAKE AWAY**
+---
+
+::: {.callout-note}
+This article is work in progress. We also use the Quarto manuscript project type to explore the new features. Please consult these pages regularly to follow any updates.
+:::
+
+## Introduction
+
+```{r}
+#| label: tbl-thresholdvalues
+#| tbl-cap: Threshold values for proxies defining particular hazard type.
+
+thr_values <- tibble::tribble(
+ ~"Hazard type", ~"Shortcut", ~"Threshold values"
+,"Thunderstorm", "TSTM",  "ML CAPE >150 J kg-1, convective precipitation >0.25 mm h-1" 
+,"Limited visibility", "LIMV", "Ceiling height <200 ft AGL, low-level cloud cover ¼100%" ,"Low-level wind shear", "LLWS", "0–100 m AGL vertical wind shear gradient >3 kt per 100 ft" ,"Snowfall", "SNOW", "Snowfall >0.5 mm h 1 (liquid water content equivalent)"  
+)
+
+thr_values |> gt::gt()
+```
+
+Values from [@taszarek2020].
+Add some more text. Where is the article gone?
+
+## Background
+
+## Concept, Methods, and Data
+
+## Results and Discussion
+
+## Conclusion
+
+## References
